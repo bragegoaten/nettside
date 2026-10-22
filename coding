@@ -1,0 +1,86 @@
+ # her kommer all koding til å være
+<h1>Det er BIG DIH BRAGE GNG!!<h1>
+
+<h6>Halla, jeg heter Brage og er hele 16 år gammel.<h6>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Om meg</title>
+</head>
+<body>
+
+    <header>
+        <h1>Om meg</h1>
+        <p>Velkommen til min personlige nettside!</p>
+    </header>
+
+    <!-- Navigasjonsmeny -->
+    <nav>
+        <ul>
+            <li><a href="#ommeg">Om meg</a></li>
+            <li><a href="#hobbyer">Hobbyer</a></li>
+            <li><a href="#skole">Skole</a></li>
+            <li><a href="#ukeskjema">Ukeskjema</a></li>
+            <li><a href="interesser.html">Interesser</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Seksjon om meg -->
+        <section id="ommeg">
+            <h2>Om meg</h2>
+
+            <p>
+                Hei! Jeg heter Brage og går på skole. Jeg er interessert i
+                teknologi, programmering og gaming. På fritiden liker jeg å
+                være med venner og lære nye ting.
+            </p>
+
+            <figure>
+                <img src="bilder/meg.jpg" alt="Bilde av meg" width="250">
+                <figcaption>Dette er et bilde av meg.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Seksjon om hobbyer -->
+        <section id="hobbyer">
+            <h2>Hobbyer</h2>
+
+            <p>
+                Jeg liker å spille videospill, programmere og høre på musikk.
+                Jeg synes det er spennende å lære hvordan nettsider og apper
+                blir laget.
+            </p>
+        </section>
+
+        <!-- Seksjon om skole -->
+        <section id="skole">
+            <h2>Skole og interesser</h2>
+
+            <dl>
+                <dt>Favorittfag</dt>
+                <dd>Informasjonsteknologi</dd>
+
+                <dt>Favorittmat</dt>
+                <dd>Pizza</dd>
+
+                <dt>Drømmejobb</dt>
+                <dd>Programmerer</dd>
+            </dl>
+        </section>
+
+        <!-- Tabell med ukeskjema -->
+        <section id="ukeskjema">
+            <h2>Mitt ukeskjema</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Dag</th>
+                    <th>Aktivitet</th>
+                </tr>
+
+                <tr>
+                    <td>Mandag</td>
+                    <td>Skole
